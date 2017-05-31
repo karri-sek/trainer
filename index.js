@@ -1,23 +1,16 @@
-var cool = require('cool-ascii-faces');
 var express = require('express');
 var app = express();
+var initializeDatabases = require('./dbs');
+var controllers = require('./controllers');
 
-app.set('port', (process.env.PORT || 5000));
-
-app.use(express.static(__dirname + '/public'));
-
-// views is directory for all template files
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
-
-app.get('/', function(request, response) {
-  response.render('pages/index');
+initializeDatabases(function(err, dbs){
+    if(err){
+      console.error('Failed to make all database connections!');
+      console.error(err);
+      process.exit(1);
+    }
+    //Initialize the application once database connections are ready
+    controllers(app,dbs).listen(5000, function(){
+        console.log('Node app is running on port', 5000);
+    });
 });
-app.get('/cool', function(request, response) {
-  response.send(cool());
-});
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
-});
-
-
