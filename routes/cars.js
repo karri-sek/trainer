@@ -6,7 +6,7 @@ var express = require('express')
 router.get('/brands', function(req, res){
     let db = req.app.get('db');
     res.send('called /cars/brands');
-    db.createCollection('cars');
+  
 
 });
 
