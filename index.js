@@ -5,16 +5,25 @@ var fs = require('fs')
 var path = require('path')
 var bodyParser = require('body-parser')
 var app = express();
-
+var winston = require('winston');
+var logger = new (winston.Logger)({
+  transports: [
+    new (winston.transports.File)({
+      name: 'application-logfile',
+      filename: './log/application.json',
+      level: 'silly'
+    })
+  ]
+});
 require('./dbs')(function(err, dbs){
     if(err){
-      console.error('Failed to make all database connections!');
+      logger.log('error','Failed to make all database connections!, error-> %s',err);
       console.error(err);
       process.exit(1);
     }
     //Initialize the application once database connections are ready
-    require('./routes')(app,dbs).listen(5000, function(){
-        console.log('Node app is running on port', 5000);
+    require('./routes')(app,dbs, logger).listen(5000, function(){
+        logger.log('Node app is running on port', 5000);
     });
 });
 

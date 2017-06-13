@@ -1,0 +1,4 @@
+{"level":"info","message":"Initialization of /production end point","timestamp":"2017-06-13T11:19:54.434Z"}
+{"level":"info","message":"Initialization of /users end point","timestamp":"2017-06-13T11:19:54.436Z"}
+{"level":"info","message":"Initialization of /users/:id end point","timestamp":"2017-06-13T11:19:54.436Z"}
+{"level":"info","message":"Initialization of /addusers end point","timestamp":"2017-06-13T11:19:54.437Z"}
