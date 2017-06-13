@@ -1,4 +1,163 @@
-{"level":"info","message":"Initialization of /production end point","timestamp":"2017-06-13T11:19:54.434Z"}
-{"level":"info","message":"Initialization of /users end point","timestamp":"2017-06-13T11:19:54.436Z"}
-{"level":"info","message":"Initialization of /users/:id end point","timestamp":"2017-06-13T11:19:54.436Z"}
-{"level":"info","message":"Initialization of /addusers end point","timestamp":"2017-06-13T11:19:54.437Z"}
+{
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T13:55:41.325Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T13:55:41.327Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T13:55:41.327Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T13:55:41.327Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:27:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T13:55:41.328Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T13:55:41.333Z"
+} {
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T13:56:50.060Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T13:56:50.061Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T13:56:50.062Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T13:56:50.062Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:28:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T13:56:50.062Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T13:56:50.067Z"
+} {
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T13:56:59.668Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T13:56:59.669Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T13:56:59.670Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T13:56:59.670Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:28:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T13:56:59.670Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T13:56:59.676Z"
+} {
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T13:59:07.144Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T13:59:07.146Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T13:59:07.146Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T13:59:07.146Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:28:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T13:59:07.146Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T13:59:07.152Z"
+} {
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T13:59:14.142Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T13:59:14.144Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T13:59:14.144Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T13:59:14.145Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:28:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T13:59:14.145Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T13:59:14.151Z"
+} {
+  "level": "info",
+  "message": "Initialization of /production end point",
+  "timestamp": "2017-06-13T14:02:17.357Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users end point",
+  "timestamp": "2017-06-13T14:02:17.361Z"
+} {
+  "level": "info",
+  "message": "Initialization of /users/:id end point",
+  "timestamp": "2017-06-13T14:02:17.361Z"
+} {
+  "level": "info",
+  "message": "Initialization of /addusers end point",
+  "timestamp": "2017-06-13T14:02:17.362Z"
+} {
+  "message": "Cannot read property 'authenticate' of undefined",
+  "stack": "TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:36:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)",
+  "level": "error",
+  "timestamp": "2017-06-13T14:02:17.362Z"
+} {
+  "level": "info",
+  "message": "Node app is running on port 5000",
+  "timestamp": "2017-06-13T14:02:17.367Z"
+}
+{"level":"info","message":"Initialization of /production end point","timestamp":"2017-06-13T14:03:58.282Z"}
+{"level":"info","message":"Initialization of /users end point","timestamp":"2017-06-13T14:03:58.286Z"}
+{"level":"info","message":"Initialization of /users/:id end point","timestamp":"2017-06-13T14:03:58.286Z"}
+{"level":"info","message":"Initialization of /addusers end point","timestamp":"2017-06-13T14:03:58.286Z"}
+{"message":"Cannot read property 'authenticate' of undefined","stack":"TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:36:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)","level":"error","timestamp":"2017-06-13T14:03:58.287Z"}
+{"level":"info","message":"Node app is running on port 5000","timestamp":"2017-06-13T14:03:58.293Z"}
+{"level":"info","message":"Initialization of /production end point","timestamp":"2017-06-13T14:04:18.925Z"}
+{"level":"info","message":"Initialization of /users end point","timestamp":"2017-06-13T14:04:18.928Z"}
+{"level":"info","message":"Initialization of /users/:id end point","timestamp":"2017-06-13T14:04:18.929Z"}
+{"level":"info","message":"Initialization of /addusers end point","timestamp":"2017-06-13T14:04:18.929Z"}
+{"message":"Cannot read property 'authenticate' of undefined","stack":"TypeError: Cannot read property 'authenticate' of undefined\n    at module.exports (/Users/sekharkarri/node-js-getting-started/routes/index.js:66:30)\n    at /Users/sekharkarri/node-js-getting-started/index.js:36:22\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3838:9\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:421:16\n    at iterateeCallback (/Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:928:24)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:906:16\n    at /Users/sekharkarri/node-js-getting-started/node_modules/async/dist/async.js:3835:13\n    at connectCallback (/Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:467:5)\n    at /Users/sekharkarri/node-js-getting-started/node_modules/mongodb/lib/mongo_client.js:405:13\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)","level":"error","timestamp":"2017-06-13T14:04:18.929Z"}
+{"level":"info","message":"Node app is running on port 5000","timestamp":"2017-06-13T14:04:18.935Z"}
