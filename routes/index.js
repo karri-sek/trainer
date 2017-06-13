@@ -14,7 +14,6 @@ module.exports = function(app, dbs, logger, passport) {
   logger.log('info', 'Initialization of /users end point')
 
   app.get('/users', function(req, res) {
-    console.log('u called me 12343sekhara')
     dbs.production.collection('users').find({}).toArray(function(err, users) {
       if (err) {
         console.log(err);
