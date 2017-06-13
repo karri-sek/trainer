@@ -25,7 +25,11 @@ var logger = new(winston.Logger)({
     })
   ]
 });
-
+app.use(passport.initialize());
+app.use(passport.session());
+// Initialize Passport
+var initPassport = require('./passport');
+initPassport(passport);
 require('./dbs')(function(err, dbs) {
   if (err) {
     logger.log('error', 'Failed to make all database connections!, error-> %s', err);
@@ -33,7 +37,7 @@ require('./dbs')(function(err, dbs) {
     process.exit(1);
   }
   //Initialize the application once database connections are ready
-  require('./routes')(app, dbs, logger).listen(5000, function(err, req) {
+  require('./routes')(app, dbs, logger, passport).listen(5000, function(err, req) {
     logger.log('info', 'Node app is running on port %s', 5000);
   });
 });

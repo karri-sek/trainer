@@ -1,6 +1,5 @@
-
 module.exports = function(app, dbs, logger, passport) {
-  logger.log('info','Initialization of /production end point')
+  logger.log('info', 'Initialization of /production end point')
   app.get('/production', function(req, res) {
     dbs.production.collection('test').find({}).toArray(function(err, docs) {
       if (err) {
@@ -12,7 +11,7 @@ module.exports = function(app, dbs, logger, passport) {
     });
   });
 
-  logger.log('info','Initialization of /users end point')
+  logger.log('info', 'Initialization of /users end point')
 
   app.get('/users', function(req, res) {
     console.log('u called me 12343sekhara')
@@ -26,7 +25,7 @@ module.exports = function(app, dbs, logger, passport) {
       }
     });
   });
- logger.log('info','Initialization of /users/:id end point')
+  logger.log('info', 'Initialization of /users/:id end point')
   app.get('/users/:id', function(req, res) {
     dbs.production.collection('users').findOne({
         _id: parseInt(req.params.id)
@@ -42,7 +41,7 @@ module.exports = function(app, dbs, logger, passport) {
       });
   });
 
-  logger.log('info','Initialization of /addusers end point')
+  logger.log('info', 'Initialization of /addusers end point')
   app.post('/addusers', function(req, res) {
     if (req.body._id == undefined || req.body._id == null || req.body._id == 0) {
       dbs.production.collection('users').find({}).sort({
@@ -62,14 +61,15 @@ module.exports = function(app, dbs, logger, passport) {
       });
     }
   });
-try{
-  app.post('/login', passport.authenticate('login',{
-
-  },function(err,res){
-
-  }));
-}catch(err){
-  logger.log('error',err);
-}
+  try {
+    /* Handle Registration POST */
+  	app.post('/signup', passport.authenticate('signup', {
+  		successRedirect: '/home',
+  		failureRedirect: '/signup',
+  		failureFlash : true
+  	}));
+  } catch (err) {
+    logger.log('error', err);
+  }
   return app;
 }
