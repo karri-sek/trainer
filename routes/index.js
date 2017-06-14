@@ -70,5 +70,12 @@ module.exports = function(app, dbs, logger, passport) {
   } catch (err) {
     logger.log('error', err);
   }
+
+  /* Handle Login POST */
+	app.post('/login', passport.authenticate('login', {
+		successRedirect: '/home',
+		failureRedirect: '/',
+		failureFlash : true
+	}));
   return app;
 }
