@@ -18,9 +18,11 @@
           }).limit(1).toArray(function(err, users) {
             var user = new User(req.body);
             user.password = createHash(password);
-            if (users.length != 0) user.userid = users[0].userid + 1;
-            else user.userid = 1;
-            console.log('user here ', user);
+            if (users.length != 0) {
+              user.userid = users[0].userid + 1;
+            } else {
+              user.userid = 1;
+            }
             dbs.production.collection('users').insertOne(user,
               function(err, result) {
                 if (err) {
