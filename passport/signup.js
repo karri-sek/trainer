@@ -14,19 +14,21 @@
           logger.log('error', 'user already exists with user name %s', username)
         } else {
           dbs.production.collection('users').find({}).sort({
-            "_id": -1
+            "userid": -1
           }).limit(1).toArray(function(err, users) {
-            if (users.length != 0) req.body._id = users[0]._id + 1
-            else req.body._id = 1;
-            req.body.password = createHash(password);
-            dbs.production.collection('users').insertOne(req.body,
+            var user = new User(req.body);
+            user.password = createHash(password);
+            if (users.length != 0) user.userid = users[0].userid + 1;
+            else user.userid = 1;
+            console.log('user here ', user);
+            dbs.production.collection('users').insertOne(user,
               function(err, result) {
                 if (err) {
                   logger.log('error', 'Unable to create user with username: %s', username)
                   res.error(err);
                 } else {
                   logger.log('info', 'user %s created successfully.', username)
-                  done(null,result.ops[0]);
+                  done(null, result.ops[0]);
                 }
               });
           });

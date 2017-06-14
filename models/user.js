@@ -20,5 +20,9 @@ module.exports = mongoose.model('User', {
   createdAt: {
     type: Date,
     default: Date.now
+  },
+  userid: {
+    type: Number,
+    required: true
   }
 });
