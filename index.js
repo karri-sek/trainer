@@ -35,7 +35,7 @@ require('./dbs')(function(err, dbs) {
   }
   //Initialize the application once database connections are ready
   require('./routes')(app, dbs, logger, passport);
-  require('./passport')(app,passport,dbs).listen(5000, function(err, req) {
+  require('./passport')(app,passport,dbs, logger).listen(5000, function(err, req) {
     logger.log('info', 'Node app is running on port %s', 5000);
   });
 });
